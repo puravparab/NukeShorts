@@ -1,0 +1,16 @@
+{
+  "name": "nukeshorts",
+  "version": "1.0.0",
+  "description": "A web extension that disables YouTube shorts.",
+  "scripts": {
+    "build": "bun run scripts/build.ts",
+    "dev": "bun run scripts/build.ts --watch"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.268",
+    "autoprefixer": "^10.4.21",
+    "bun-types": "latest",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17"
+  }
+}
