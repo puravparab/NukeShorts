@@ -4,7 +4,10 @@ chrome.storage.sync.get("enabled", (data) => {
     style.textContent = `
       ytd-rich-section-renderer[is-shorts],
       ytd-reel-shelf-renderer,
-      a[href^="/shorts/"] {
+      ytd-rich-section-renderer:has(ytd-rich-shelf-renderer[is-shorts]),
+      a[href^="/shorts/"],
+      ytd-mini-guide-entry-renderer:has(a[title="Shorts"]),
+      ytd-guide-entry-renderer:has(a[title="Shorts"]) {
         display: none !important;
       }
     `;

@@ -4,16 +4,8 @@ node_modules
 # output
 out
 dist
+*.zip
 *.tgz
-
-# code coverage
-coverage
-*.lcov
-
-# logs
-logs
-_.log
-report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 
 # dotenv environment variable files
 .env
