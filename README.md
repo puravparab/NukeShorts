@@ -8,7 +8,7 @@ There are two ways to install NukeShorts:
 
 ### 1. From the Pre-built Zip (Easiest)
 
-1.  Download the extension's `.zip` file from the [latest release](https://github.com/your-username/nukeshorts/releases) on GitHub.
+1.  Download the extension's `.zip` file from the [latest release](https://github.com/puravparab/NukeShorts/releases) on GitHub.
 2.  Unzip the file.
 3.  Open Chrome and navigate to `chrome://extensions`.
 4.  Enable "Developer mode".
@@ -20,7 +20,7 @@ If you prefer to build the extension yourself, follow these steps:
 
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/your-username/nukeshorts.git
+    git clone https://github.com/puravparab/NukeShorts.git
     ```
 2.  Navigate to the project directory:
     ```bash
